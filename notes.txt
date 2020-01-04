@@ -1,0 +1,218 @@
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ cd f
+bash: cd: f: No such file or directory
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ cd f//
+bash: cd: f//: No such file or directory
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ cd c//
+bash: cd: c//: No such file or directory
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ cd f://
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$ cd f:??
+bash: cd: f:??: No such file or directory
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$ cd f://
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$ cd f:??
+bash: cd: f:??: No such file or directory
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$ cd f://
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$ cd f://
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$ cd f://
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$ ls
+'$RECYCLE.BIN'      for_algoritham    Programs
+ coding_interview   inportent_notes  'System Volume Information'
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /f
+$ cd e://
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e
+$ mkdir "python1"
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e
+$ ls
+'$RECYCLE.BIN'   my_django_project           python
+ data_base       my_django_project_youtube   python1
+ django          notest                     'System Volume Information'    
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e
+$ rm python1
+rm: cannot remove 'python1': Is a directory
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e
+$ rm -rf python1
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e
+$ ls
+'$RECYCLE.BIN'   my_django_project           python
+ data_base       my_django_project_youtube  'System Volume Information'    
+ django          notest
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e
+$ cd python 
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ cd ..
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e
+$ cd python/
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ pwd
+/e/python
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ touch hello.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ code hello.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ py hello.py 
+rajan singh
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$  ls
+hello.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ ls
+hello.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ pwd 
+/e/python
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ mkdir "new python course"
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ rm -rf "new python course"/
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ makir new python course
+bash: makir: command not found
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ mkdir new python course
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ rm -rf course/
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ rm -rf python
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ rm -rf new
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ cd ~
+
+rajan@DESKTOP-DCGB8M0 MINGW64 ~
+$ pwd
+/c/Users/rajan
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ touch new_file.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ rm new_file.py 
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ touch new_file.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ code new_file.py 
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ rm new_file.py 
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python
+$ git init
+Initialized empty Git repository in E:/python/.git/
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ git remote add origin git@github.com:RAJANNITCS/Pyhton_practice.git      
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ git remote
+origin
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ rm hello.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ touch hello.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ code hello.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ mv hello.py first.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ mkdir new_folder
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ mv first.py "new_folder"
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ cd new_folder/
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python/new_folder (master)
+$ ls
+first.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python/new_folder (master)
+$ mv first.py 'python"
+> ;
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python/new_folder (master)
+$ mv first.py "new_folder"
+mv: cannot stat 'first.py': No such file or directory
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python/new_folder (master)
+$ mv first.py "new_folder"
+mv: cannot stat 'first.py': No such file or directory
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python/new_folder (master)
+$ ls
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python/new_folder (master)
+$ cd ..
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ cp first.py "new_folder"
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ cd new_folder/
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python/new_folder (master)
+$ rm first.py
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python/new_folder (master)
+$ cd ..
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$ touch notes.txt
+
+rajan@DESKTOP-DCGB8M0 MINGW64 /e/python (master)
+$
