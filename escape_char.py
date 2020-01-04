@@ -9,3 +9,6 @@ print("This is \\\\ double backslash")
 print("This is /\\/\\/\\/\\ mountain")
 print("he is \t awesome")
 print("\\\" \\n \\t \\\' ")
+
+#shortcut
+print(r'line \n line b ')
