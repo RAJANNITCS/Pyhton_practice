@@ -83,6 +83,18 @@ print(name[1])
 print(name.replace('t','T'))
 
 
+# +=
+# -=
+# *=
+# /=
+# //=
+# %=
+
+
+
+
+
+
 
 
 
