@@ -81,31 +81,136 @@
 # print(type(info))
 # print(info)
 
+# s='string'
+
+# t=s.title()
+# print(t)
 
 
+# l=['word1','word2','word3','words4']
+# l.pop()
+# l.append('rajan')
+# print(l)
+
+# name=['rajan','seema','mohan','sohan','ravi']
+# for i in name:
+#     print(i)
+# for i in range(len(name)):
+#     print(name[i])
+    
+# i=0
+# while i<len(name):
+#     print(name[i])
+#     i+=1
+
+# list1=[1,2,3,4]
+# list2=[5,6,7,8]
+# list3=[9,10,11,12]
+# # list1.append(list2)
+# # list1.append(list3)
+# list4=list1+list2+list3
+# print(list4)
+# matrix=[[1,2,3],[4,5,6],[7,8,9]]
+# print(matrix[0][1])
+# for i in matrix:
+#     for j in i:
+#         print(j)
+
+# numbers=list(range(1,11))
+
+# print(numbers)
+
+# # num1=numbers.pop()
+# # print(num1)
+
+# print(numbers.index(5))
+# print(numbers.index(5,6))
+# print(numbers.index(5,6,8))
 
 
+# def negative_list(lists):
+#     neg=[]
+#     for i in lists:
+#         neg.append(-i)
+#     return neg
+
+# print(negative_list(numbers))
 
 
+# def squer(lists):
+#     sqr=[]
+#     for i in lists:
+#         sqr.append(i*i)
+#     return sqr
 
+# print(squer(numbers))
 
+# def revers_1(lists):
+#      lists.reverse()
+#      return lists
+# def revers_1(lists):
+#     return lists[::-1]
 
+# def revers_1(lists):
+#     li=[]
+#     for i in range(len(lists)):
+#         li.append(lists.pop())
+#     return li
+# numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]       
+# print(revers_1(numbers))
 
+# words=['abc','tuv','xyz']
+# def reverse1(words):
+#     lists=[]
+#     for i in words:
+#         lists.append(i[::-1])
+#     return lists
+# print(reverse1(words))
 
+# numbers=list(range(1,21))
+# def filter_odd_even(numbers):
+#     even_list=[]
+#     odd_list=[]
+#     sum_list=[]
+#     for i in numbers:
+#         if i %2==0:
+#             even_list.append(i)
+#         else:
+#             odd_list.append(i)
+#     sum_list.append(even_list)
+#     sum_list.append(odd_list)
+#     return sum_list
 
+# print(filter_odd_even(numbers))
 
+# def filter_list(num_list1,num_list2):
+#     output=[]
+#     for i in num_list1:
+#         if i in num_list2:
+#             output.append(i)
+#     return output
+    
+# num_list1=[1,2,5,8]
+# num_list2=[1,2,7,6]
+# print(filter_list(num_list1,num_list2))
 
+# def defference(num_list):
+#     output=max(num_list)-min(num_list)
+#     return output
 
+# num_list=[3,8,9,12,2,5,7]
+# print(min(num_list))
+# print(max(num_list))
+# # print(defference(num_list))
 
-
-
-
-
-
-
-
-
-
-
-
+# def count_list(num_list):
+#     list_count=0
+#     for i in num_list:
+#         if type(i)==list:
+#             list_count+=1
+#     return list_count
+        
+        
+# num_list=[1,2,3,[1,2],[3,4],[]]
+# print(count_list(num_list))
 
